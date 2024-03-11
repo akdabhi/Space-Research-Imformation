@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(#d1e8e2,#2c3531);
+    /* background-image: url('halfe.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+}
+
+.c4 {
+    background: url('space.png');
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 1560px;
+    height: 200px;
+    /* margin: 20px; */
+    z-index: -10;
+}
+
+h2 pre{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;   
+}
+
+h1 pre{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+#neubar {
+    /* background-image: url(halfe.jpg); */
+    /* box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4) */
+}
+#neubar .nav-item a{
+    color: black;
+    font-size:large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#neubar .nav-item a:hover {
+    color: darkblue;
+}
+
+#neubar .dropdown-menu a:hover {
+    color: black;
+}
+
+#neubar .nav-item {
+    margin: auto 4px;
+}
+
+#neubar a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#neubar .dropdown-menu {
+    background: white;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4)
+}
+
+#neubar .dropdown-menu .dropdown-item{
+    color: #273748;
+}
+
+a.navbar-brand {
+    color: white;
+}
